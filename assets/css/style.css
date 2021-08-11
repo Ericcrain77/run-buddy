@@ -84,7 +84,7 @@ section {
     bottom: 120px;
     right: 140px;
 }
-hero-form h3 {
+.hero-form h3 {
     font-size: 24px;
     margin: 0;
 }
@@ -99,5 +99,8 @@ hero-form h3 {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+}
+.hero-form label {
+    margin: 0 5px;
 }
 /* Hero Style End */
