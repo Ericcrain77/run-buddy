@@ -362,7 +362,7 @@ section {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
     justify-content: center;
@@ -391,20 +391,20 @@ section {
   .hero-cta, .hero-form {
     width: 100%;
   }
-
+  
   .hero-cta {
     text-align: center;
   }
 
   .section-title {
-    width: 100%;
+    width: 80%;
   }
-
+  
   .trainer {
     flex: 0 70%;
   }
-
-  .contact-info iframe {
+  
+  .contact-info iframe{
     flex: 1 100%;
   }
 }
@@ -434,7 +434,7 @@ section {
   }
 
   .step-text {
-    flex: 100%;
+    flex: 100%;  
   }
 }
 
